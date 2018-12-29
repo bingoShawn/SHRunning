@@ -284,7 +284,7 @@
         {
             [self.locationsArray addObject:location];
             
-            [self.tipView showTip:[NSString stringWithFormat:@"has got %ld locations",self.locationsArray.count]];
+            [self.tipView showTip:[NSString stringWithFormat:@"has got %lu locations",(unsigned long)self.locationsArray.count]];
             
             [self.currentRecord addLocation:location];
             
