@@ -408,7 +408,7 @@
 - (void)actionClear
 {
     //记录少于3次返回重新开始
-//    if (self.updateuLocationTimes < 4) {
+//    if (self.updateuLocationTimes < 3) {
 //        [self.navigationController popToRootViewControllerAnimated:YES];
 //        return;
 //     }
